@@ -1,0 +1,32 @@
+.header-bg {
+  background-color: var(--cor-12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header > img {
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 600px) {
+  .header > img {
+    width: 40px;
+    height: 40px;
+  }
+  .menu {
+    gap: 20px;
+  }
+  .menu li {
+    font-size: 1rem;
+  }
+}

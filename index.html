@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Técnica Geração</title>
+  <meta name="description" content="Oferecemos cursos de formação profissional continuada e cursos técnicos de qualidade na cidade de Várzea Alegre.">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <img src="./img/logo.png" alt="Logo Geração" width="56" height="56">
+      <nav>
+        <ul class="menu cor-0 font-header">
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#fale-conosco">Localização</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="tela-inicial container">
+    <div class="tela-inicial-conteudo">
+      <h1 class="font-titulo cor-11">Escola Técnica <br>Geração</h1>
+      <p class="font-subtitulo cor-8">Oferecemos cursos de formação profissional continuada e cursos técnicos de qualidade na cidade de Várzea Alegre. </p>
+    </div>
+    <div class="tela-inicial-img">
+      <img src="./img/foto-inicial.jpg" alt="Profissionais da saúde reunindo suas mãos">
+    </div>
+  </main>
+
+  <article class="cursos container" id="cursos">
+    <h1 class="font-titulo cor-11">nossos cursos.</h1>
+    <ul class="cursos-lista">
+      <li class="cursos-item">
+        <div class="cursos-item-img">
+          <img src="./img/enfermagem.jpg" alt="Profissional de enfermagem">
+        </div>
+        <div>
+          <h2 class="font-curso cor-11">Enfermagem <span>R$ 170</span></h2>
+          <p class="font-curso2 cor-8">Explore o mundo da enfermagem conosco! Nosso curso oferece uma combinação prática e teórica para prepará-lo para uma carreira gratificante na saúde.</p>
+          <div class="font-curso-detalhes cor-8">
+            <p>Carga Horária <span>1800 horas</span></p>
+            <p>Duração <span>27 meses</span></p>
+            <p>Horários <span>manhã / noite</span></p>
+          </div>
+        </div>
+      </li>
+
+      <li class="cursos-item">
+        <div class="cursos-item-img">
+          <img src="./img/secretaria.jpg" alt="Pessoa escrevendo em uma folha">
+        </div>
+        <div>
+          <h2 class="font-curso cor-11">Secretaria Escolar <span>
+              <nobr>R$ 170</nobr>
+            </span></h2>
+          <p class="font-curso2 cor-8">Nosso programa de Secretariado Escolar oferece uma combinação única de habilidades administrativas e conhecimento especializado em educação.</p>
+          <div class="font-curso-detalhes cor-8">
+            <p>Carga Horária <span>1500 horas</span></p>
+            <p>Duração <span>24 meses</span></p>
+            <p>Horários <span>manhã / noite</span></p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="depoimentos container" id="depoimentos">
+    <h1 class="font-titulo cor-11">depoimentos.</h1>
+    <ul class="depoimentos-lista">
+      <li class="depoimentos-item">
+        <h2 class="font-depoimentos cor-8">Daniel</h2>
+        <p class="font-depoimentos2 cor-11">"Estudar aqui foi ótimo. Aprendi habilidades importantes e os professores foram muito prestativos. Sinto-me preparado para trabalhar na área!"</p>
+        <img src="./img/stars.svg" alt="Estrelas de avaliação">
+      </li>
+      <li class="depoimentos-item">
+        <h2 class="font-depoimentos cor-8">Daniel</h2>
+        <p class="font-depoimentos2 cor-11">"Estudar aqui foi ótimo. Aprendi habilidades importantes e os professores foram muito prestativos. Sinto-me preparado para trabalhar na área!"</p>
+        <img src="./img/stars.svg" alt="Estrelas de avaliação">
+      </li>
+      <li class="depoimentos-item">
+        <h2 class="font-depoimentos cor-8">Daniel</h2>
+        <p class="font-depoimentos2 cor-11">"Estudar aqui foi ótimo. Aprendi habilidades importantes e os professores foram muito prestativos. Sinto-me preparado para trabalhar na área!"</p>
+        <img src="./img/stars.svg" alt="Estrelas de avaliação">
+      </li>
+    </ul>
+  </article>
+
+  <article class="fale-conosco container" id="fale-conosco">
+    <h1 class="font-titulo cor-11">fale conosco.</h1>
+    <div class="fale-conosco-container">
+      <div class="fale-conosco-esquerda">
+        <img src="./img/Localização.jpg" alt="Localização da instituição no google maps">
+        <div class="fale-conosco-esquerda-texto">
+          <h2 class="font-fale cor-11">Várzea Alegre - CE</h2>
+          <div class="font-fale2 cor-8 fale-conosco-grid">
+            <img src="./img/localização.svg" alt="">
+            <p>Coronel Antonio Primo, 121, Centro</p>
+            <img src="./img/horario.svg" alt="">
+            <p>Segunda à Sabado 08-21h</p>
+            <img src="./img/telefone.svg" alt="">
+            <p>(88) 99959-2979</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="./contato.html" class="form">
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome">
+        </div>
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" name="telefone" placeholder="(21) +9999-9999">
+        </div>
+        <div class="col-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="contato@email.com">
+        </div>
+        <div class="col-2">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="O que você precisa?"></textarea>
+        </div>
+        <button class="botao col-2">ENVIAR MENSAGEM</button>
+      </form>
+  </article>
+
+  <footer class="footer-bg" id="contato">
+    <div class="footer container">
+      <img src="./img/logo.png" width="56" height="56" alt="Bikcraft">
+      <div class="footer-contato">
+        <h3 class="font-footer cor-0">CONTATO</h3>
+        <ul class="cor-5 font-footer2">
+          <li><a href="tel:+5588999592979">(88) 99959-2979</a></li>
+          <li><a href="mailto:contato@faculdade.com">contato@faculdade.com</a></li>
+          <li>Coronel Antonio Primo, 121, Centro</li>
+          <li>Várzea Alegre - CE</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="https://www.instagram.com/institutogeracao7/" target="_blank"><img src="./img/instagram.svg" width="32" height="32" alt="Instagram"></a>
+          <a href="https://www.facebook.com/escolatecnicageracaovarzeaalegre" target="_blank"><img src="./img/facebook.svg" width="32" height="32" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="font-footer cor-0">INFORMAÇÕES</h3>
+        <nav>
+          <ul class="font-footer2 cor-5">
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#fale-conosco">Fale conosco</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="font-footer2 cor-6 footer-copy">Geração © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

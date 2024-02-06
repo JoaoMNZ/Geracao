@@ -1,0 +1,17 @@
+/* global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
+
+/* home */
+@import "./home/tela-inicial.css";
+@import "./home/cursos.css";
+@import "./home/depoimentos.css";
+@import "./home/fale-conosco.css";

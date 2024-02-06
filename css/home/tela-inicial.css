@@ -1,0 +1,51 @@
+.tela-inicial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+  align-items: center;
+  margin-bottom: 120px;
+  gap: 50px;
+}
+
+.tela-inicial-conteudo h1 {
+  margin-bottom: 32px;
+}
+
+.tela-inicial-conteudo p {
+  max-width: 40ch;
+}
+
+.tela-inicial-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .tela-inicial-conteudo p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tela-inicial-conteudo p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .tela-inicial {
+    padding-top: 30px;
+    align-items: initial;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+  .tela-inicial-conteudo h1 {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tela-inicial {
+    grid-template-columns: 1fr;
+  }
+}

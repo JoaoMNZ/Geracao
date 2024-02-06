@@ -1,0 +1,96 @@
+.cursos {
+  margin-bottom: 120px;
+}
+
+.cursos h1 {
+  margin-bottom: 60px;
+}
+
+.cursos-lista {
+  display: grid;
+  gap: 60px;
+}
+
+.cursos-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.cursos-item-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.cursos-item h2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.cursos-item h2 > span {
+  line-height: 1;
+}
+
+.cursos-item h2 > span::after {
+  content: "mensal";
+  display: block;
+  font-size: 0.75rem;
+  color: var(--cor-6);
+  text-align: right;
+  font-weight: 400;
+}
+
+.cursos-item > div > p {
+  margin-bottom: 32px;
+  width: 37ch;
+}
+
+.cursos-item > div > div > p {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cursos-item > div > div > p:not(:last-child) {
+  border-bottom: 1px solid var(--cor-2);
+}
+
+@media (max-width: 1200px) {
+  .cursos-item h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .cursos-item > div > p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cursos-item h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  .cursos-item > div > p,
+  .cursos-item > div > div > p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .cursos {
+    margin-bottom: 60px;
+  }
+  .cursos h1 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cursos-item {
+    grid-template-columns: 1fr;
+  }
+}
