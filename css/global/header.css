@@ -18,6 +18,25 @@
   gap: 40px;
 }
 
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu li:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--cor-0);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.menu li:hover:after {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .header > img {
     width: 40px;

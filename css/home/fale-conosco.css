@@ -65,9 +65,7 @@
 .form input[type="email"]:focus,
 .form textarea:focus {
   outline: none;
-  border-color: var(--cor-p0);
-  background-color: var(--cor-0);
-  box-shadow: 0 0 2px #fea;
+  border-color: var(--cor-6);
 }
 
 @media (max-width: 1000px) {
