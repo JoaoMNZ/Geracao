@@ -44,4 +44,7 @@
   .depoimentos-item p {
     font-size: 1em;
   }
+  .depoimentos-lista {
+    gap: 20px;
+  }
 }
