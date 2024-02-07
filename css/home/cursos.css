@@ -87,6 +87,9 @@
   .cursos h1 {
     margin-bottom: 30px;
   }
+  .cursos-item {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 600px) {
