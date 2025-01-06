@@ -68,3 +68,14 @@
     font-weight: 400;
   }
 }
+
+.js .js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0px, 0px);
+  transition: 0.3s;
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
