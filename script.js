@@ -29,34 +29,3 @@ function initAnimationScroll() {
     }
 }
 initAnimationScroll();
-
-function initTooltip() {
-    const divImg = document.querySelector('[data-tooltip]');
-    divImg.addEventListener('mouseover', onMouseOver);
-    function onMouseOver() {
-        const divCriada = criarDiv();
-        this.addEventListener('mousemove', handleMouseMove);
-
-        function handleMouseMove(event) {
-            divCriada.style.top = event.pageY + 20 + 'px';
-            divCriada.style.left = event.pageX + 20 + 'px';
-        }
-
-        this.addEventListener('mouseleave', onMouseLeave);
-
-        function onMouseLeave() {
-            divCriada.remove();
-            divImg.removeEventListener('mouseleave', onMouseLeave);
-            divImg.removeEventListener('mousemove', handleMouseMove);
-        }
-    }
-
-    function criarDiv() {
-        const divCriada = document.createElement('div');
-        divCriada.classList.add('tooltip');
-        divCriada.innerText = divImg.ariaLabel;
-        document.body.appendChild(divCriada);
-        return divCriada;
-    }
-}
-initTooltip();
